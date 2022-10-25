@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E8E07CF192605EBCF0981DE /* Pods_Brandol_BrandolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBA7B4C74CA6ABA098EF18B /* Pods_Brandol_BrandolUITests.framework */; };
+		57E2EFBB5639E4DC12FFA4FC /* Pods_BrandolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85119CE24C72448A254BB4FB /* Pods_BrandolTests.framework */; };
+		CD65DAFA4169FC4FE2878E3A /* Pods_Brandol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81639DD6911C1B4CA572516B /* Pods_Brandol.framework */; };
+		F75D5ED02907E6DD00D30126 /* HomeController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D5ECF2907E6DD00D30126 /* HomeController+Extensions.swift */; };
 		F75E265429069C6600682C8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E265329069C6600682C8E /* AppDelegate.swift */; };
 		F75E265629069C6600682C8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E265529069C6600682C8E /* SceneDelegate.swift */; };
-		F75E265829069C6600682C8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E265729069C6600682C8E /* ViewController.swift */; };
-		F75E265B29069C6600682C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75E265929069C6600682C8E /* Main.storyboard */; };
 		F75E265D29069C6700682C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75E265C29069C6700682C8E /* Assets.xcassets */; };
 		F75E266029069C6700682C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75E265E29069C6700682C8E /* LaunchScreen.storyboard */; };
 		F75E266B29069C6700682C8E /* BrandolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E266A29069C6700682C8E /* BrandolTests.swift */; };
 		F75E267529069C6700682C8E /* BrandolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E267429069C6700682C8E /* BrandolUITests.swift */; };
 		F75E267729069C6700682C8E /* BrandolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E267629069C6700682C8E /* BrandolUITestsLaunchTests.swift */; };
+		F75E26AE2906A25500682C8E /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75E26AD2906A25500682C8E /* APIClient.framework */; };
+		F75E26AF2906A25500682C8E /* APIClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F75E26AD2906A25500682C8E /* APIClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F75E26B02906A25500682C8E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F75E26AF2906A25500682C8E /* APIClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1BBA7B4C74CA6ABA098EF18B /* Pods_Brandol_BrandolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brandol_BrandolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B257FC6A419B55D9536094 /* Pods-Brandol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brandol.release.xcconfig"; path = "Target Support Files/Pods-Brandol/Pods-Brandol.release.xcconfig"; sourceTree = "<group>"; };
+		81639DD6911C1B4CA572516B /* Pods_Brandol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brandol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85119CE24C72448A254BB4FB /* Pods_BrandolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882A1C772D0A44464B076B7A /* Pods-Brandol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brandol.debug.xcconfig"; path = "Target Support Files/Pods-Brandol/Pods-Brandol.debug.xcconfig"; sourceTree = "<group>"; };
+		93B465D38D276AE91A8626EC /* Pods-BrandolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandolTests.release.xcconfig"; path = "Target Support Files/Pods-BrandolTests/Pods-BrandolTests.release.xcconfig"; sourceTree = "<group>"; };
+		A414E0E4EA283AF61920F1C0 /* Pods-Brandol-BrandolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brandol-BrandolUITests.release.xcconfig"; path = "Target Support Files/Pods-Brandol-BrandolUITests/Pods-Brandol-BrandolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA098BDA1F56930715FA320E /* Pods-Brandol-BrandolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brandol-BrandolUITests.debug.xcconfig"; path = "Target Support Files/Pods-Brandol-BrandolUITests/Pods-Brandol-BrandolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E35AD9BE1A8173C0600E7713 /* Pods-BrandolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandolTests.debug.xcconfig"; path = "Target Support Files/Pods-BrandolTests/Pods-BrandolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75D5E652907D26500D30126 /* HomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D5ECF2907E6DD00D30126 /* HomeController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController+Extensions.swift"; sourceTree = "<group>"; };
 		F75E265029069C6600682C8E /* Brandol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brandol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75E265329069C6600682C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F75E265529069C6600682C8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F75E265729069C6600682C8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F75E265A29069C6600682C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75E265C29069C6700682C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75E265F29069C6700682C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F75E266129069C6700682C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +76,8 @@
 		F75E267029069C6700682C8E /* BrandolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75E267429069C6700682C8E /* BrandolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandolUITests.swift; sourceTree = "<group>"; };
 		F75E267629069C6700682C8E /* BrandolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F75E26AD2906A25500682C8E /* APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75E26EB2906D9DF00682C8E /* ProductModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProductModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75E26AE2906A25500682C8E /* APIClient.framework in Frameworks */,
+				CD65DAFA4169FC4FE2878E3A /* Pods_Brandol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E2EFBB5639E4DC12FFA4FC /* Pods_BrandolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8E07CF192605EBCF0981DE /* Pods_Brandol_BrandolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15281245819286BD16CC9E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882A1C772D0A44464B076B7A /* Pods-Brandol.debug.xcconfig */,
+				72B257FC6A419B55D9536094 /* Pods-Brandol.release.xcconfig */,
+				DA098BDA1F56930715FA320E /* Pods-Brandol-BrandolUITests.debug.xcconfig */,
+				A414E0E4EA283AF61920F1C0 /* Pods-Brandol-BrandolUITests.release.xcconfig */,
+				E35AD9BE1A8173C0600E7713 /* Pods-BrandolTests.debug.xcconfig */,
+				93B465D38D276AE91A8626EC /* Pods-BrandolTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6B343402562227AEF675DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F75D5E652907D26500D30126 /* HomeModule.framework */,
+				F75E26EB2906D9DF00682C8E /* ProductModule.framework */,
+				F75E26AD2906A25500682C8E /* APIClient.framework */,
+				81639DD6911C1B4CA572516B /* Pods_Brandol.framework */,
+				1BBA7B4C74CA6ABA098EF18B /* Pods_Brandol_BrandolUITests.framework */,
+				85119CE24C72448A254BB4FB /* Pods_BrandolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F75E264729069C6600682C8E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +142,8 @@
 				F75E266929069C6700682C8E /* BrandolTests */,
 				F75E267329069C6700682C8E /* BrandolUITests */,
 				F75E265129069C6600682C8E /* Products */,
+				15281245819286BD16CC9E29 /* Pods */,
+				C6B343402562227AEF675DDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +162,10 @@
 			children = (
 				F75E265329069C6600682C8E /* AppDelegate.swift */,
 				F75E265529069C6600682C8E /* SceneDelegate.swift */,
-				F75E265729069C6600682C8E /* ViewController.swift */,
-				F75E265929069C6600682C8E /* Main.storyboard */,
 				F75E265C29069C6700682C8E /* Assets.xcassets */,
 				F75E265E29069C6700682C8E /* LaunchScreen.storyboard */,
 				F75E266129069C6700682C8E /* Info.plist */,
+				F75D5ECF2907E6DD00D30126 /* HomeController+Extensions.swift */,
 			);
 			path = Brandol;
 			sourceTree = "<group>";
@@ -134,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75E267A29069C6700682C8E /* Build configuration list for PBXNativeTarget "Brandol" */;
 			buildPhases = (
+				369B3A1E8274DEDF014953BA /* [CP] Check Pods Manifest.lock */,
 				F75E264C29069C6600682C8E /* Sources */,
 				F75E264D29069C6600682C8E /* Frameworks */,
 				F75E264E29069C6600682C8E /* Resources */,
+				F75E26B02906A25500682C8E /* Embed Frameworks */,
+				FAE06A3120AA5F196479B3DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75E267D29069C6700682C8E /* Build configuration list for PBXNativeTarget "BrandolTests" */;
 			buildPhases = (
+				0EC9E9716BF357BD74B8E6B4 /* [CP] Check Pods Manifest.lock */,
 				F75E266229069C6700682C8E /* Sources */,
 				F75E266329069C6700682C8E /* Frameworks */,
 				F75E266429069C6700682C8E /* Resources */,
@@ -169,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75E268029069C6700682C8E /* Build configuration list for PBXNativeTarget "BrandolUITests" */;
 			buildPhases = (
+				3B0A91132642D78B9E36AE00 /* [CP] Check Pods Manifest.lock */,
 				F75E266C29069C6700682C8E /* Sources */,
 				F75E266D29069C6700682C8E /* Frameworks */,
 				F75E266E29069C6700682C8E /* Resources */,
+				7F1C3C59FD010BA114501AA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +299,6 @@
 			files = (
 				F75E266029069C6700682C8E /* LaunchScreen.storyboard in Resources */,
 				F75E265D29069C6700682C8E /* Assets.xcassets in Resources */,
-				F75E265B29069C6600682C8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +318,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC9E9716BF357BD74B8E6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369B3A1E8274DEDF014953BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brandol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0A91132642D78B9E36AE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brandol-BrandolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1C3C59FD010BA114501AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brandol-BrandolUITests/Pods-Brandol-BrandolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brandol-BrandolUITests/Pods-Brandol-BrandolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brandol-BrandolUITests/Pods-Brandol-BrandolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE06A3120AA5F196479B3DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brandol/Pods-Brandol-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brandol/Pods-Brandol-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brandol/Pods-Brandol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F75E264C29069C6600682C8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75E265829069C6600682C8E /* ViewController.swift in Sources */,
 				F75E265429069C6600682C8E /* AppDelegate.swift in Sources */,
 				F75E265629069C6600682C8E /* SceneDelegate.swift in Sources */,
+				F75D5ED02907E6DD00D30126 /* HomeController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F75E265929069C6600682C8E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F75E265A29069C6600682C8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F75E265E29069C6700682C8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +592,7 @@
 		};
 		F75E267B29069C6700682C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882A1C772D0A44464B076B7A /* Pods-Brandol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +603,6 @@
 				INFOPLIST_FILE = Brandol/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +620,7 @@
 		};
 		F75E267C29069C6700682C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B257FC6A419B55D9536094 /* Pods-Brandol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +631,6 @@
 				INFOPLIST_FILE = Brandol/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +648,7 @@
 		};
 		F75E267E29069C6700682C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35AD9BE1A8173C0600E7713 /* Pods-BrandolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		F75E267F29069C6700682C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B465D38D276AE91A8626EC /* Pods-BrandolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +690,7 @@
 		};
 		F75E268129069C6700682C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA098BDA1F56930715FA320E /* Pods-Brandol-BrandolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +709,7 @@
 		};
 		F75E268229069C6700682C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A414E0E4EA283AF61920F1C0 /* Pods-Brandol-BrandolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+        {
+            "image": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty363/product/media/images/20220318/10/71805612/87227366/1/1_org_zoom.jpg",
+            "name": "Softy Wellsoft Tv Battaniye",
+            "price": "189.90 TL"
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty167/product/media/images/20210831/16/124319262/233351944/1/1_org_zoom.jpg",
+            "name": "Holly Wellsoft Çift Kişilik Battaniye",
+            "price": "199.90 TL"
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty273/product/media/images/20211218/1/12785108/339938370/1/1_org_zoom.jpg",
+            "name": "Natural Bej Koltuk Örtüsü ",
+            "price": "79.90 TL"
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty564/product/media/images/20221016/10/194791193/190215158/1/1_org_zoom.jpg",
+            "name": "Lavin Model Gri Çift Kişilik Pike",
+            "price": "79.90 TL"
+        }
+
+    ]
+}

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Brandol
+//  HomeModuleApp
 //
-//  Created by Kaan Ozdemir on 24.10.2022.
+//  Created by Kaan Ozdemir on 25.10.2022.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            let controller = BrandolHomeController(nibName: "HomeController", bundle: Bundle(for: HomeController.self))
+            let controller = HomeController(nibName: "HomeController", bundle: Bundle(for: HomeController.self))
             window.rootViewController = UINavigationController(rootViewController: controller)
             self.window = window
             window.makeKeyAndVisible()

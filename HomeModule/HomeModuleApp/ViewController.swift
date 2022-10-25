@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Brandol
+//  HomeModuleApp
 //
-//  Created by Kaan Ozdemir on 24.10.2022.
+//  Created by Kaan Ozdemir on 25.10.2022.
 //
 
 import UIKit

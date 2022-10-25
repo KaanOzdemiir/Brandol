@@ -1,12 +1,12 @@
 //
 //  SceneDelegate.swift
-//  Brandol
+//  ProductModuleApp
 //
 //  Created by Kaan Ozdemir on 24.10.2022.
 //
 
 import UIKit
-import HomeModule
+import ProductModule
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            let controller = BrandolHomeController(nibName: "HomeController", bundle: Bundle(for: HomeController.self))
+            let controller = ProductListController(nibName: "ProductListController", bundle: Bundle(identifier: "com.ko.ProductModule"))
             window.rootViewController = UINavigationController(rootViewController: controller)
             self.window = window
             window.makeKeyAndVisible()

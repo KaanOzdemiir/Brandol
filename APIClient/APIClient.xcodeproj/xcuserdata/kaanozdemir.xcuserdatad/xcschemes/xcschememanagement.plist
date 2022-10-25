@@ -4,25 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Brandol.xcscheme_^#shared#^_</key>
+		<key>APIClient.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F75E264F29069C6600682C8E</key>
+		<key>F75E268C29069FDE00682C8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F75E266529069C6700682C8E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F75E266F29069C6700682C8E</key>
+		<key>F75E269429069FDE00682C8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

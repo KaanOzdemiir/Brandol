@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "data": [
+        {
+            "image": "https://cdn.dsmcdn.com/ty578/pimWidgetApi/mobile_20221024062003_2259799ErkekMobile20220923180.jpg",
+            "title": "Yeni Koleksiyon"
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty562/pimWidgetApi/mobile_20221014125744_EHMyeni.jpg",
+            "title": "Bütçe Dostu Fiyatlar"
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty573/campaign/banners/original/615158/6af29de6f2_0.jpg",
+            "title": "Yeni Sezon Fırsatını Kaçırma"
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty531/pimWidgetApi/mobile_20220912064457_2261983ElektronikMobile202209091901.jpg",
+            "title": "Özel Fiyatlar"
+        }
+    ]
+}
